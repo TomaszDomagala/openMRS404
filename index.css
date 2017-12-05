@@ -1,0 +1,35 @@
+img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.err {
+
+    z-index: 1;
+
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(35, 31, 32, 0.64);
+
+}
+
+h1.err {
+    font-size: 100px;
+    color: #EEA616;
+    font-family: "Roboto Slab";
+}
+
+h2.err {
+    position: relative;
+    bottom: 50px;
+    color: #EEA616;
+    font-family: "Roboto Slab";
+}
+
+body {
+    background-color: #fffaf6;
+}
