@@ -54,8 +54,8 @@ body {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    -webkit-box-shadow: 0px 0px 4px #666666;
-    -moz-box-shadow: 0px 0px 4px #666666;
+    /*-webkit-box-shadow: 0px 0px 4px #666666;*/
+    /*-moz-box-shadow: 0px 0px 4px #666666;*/
     /*box-shadow: 0px 0px 4px #666666;*/
     font-family: Arial;
     color: #ffffff;
