@@ -74,3 +74,13 @@ body {
     background-image: linear-gradient(to bottom, #f78956, #f26422);
     text-decoration: none;
 }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
