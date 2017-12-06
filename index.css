@@ -4,7 +4,7 @@ html, body {
     overflow: hidden
 }
 
-img {
+.img-d {
     max-width: 100%;
     height: auto;
     position: absolute;
@@ -12,6 +12,14 @@ img {
     bottom: 0;
     z-index: -1;
 
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    top: 1vmax;
+    position: relative;
+    width: 5vmax;
 }
 
 .err {
@@ -24,7 +32,8 @@ img {
 }
 
 h1.err {
-    font-size: 10vmax;
+    margin-top: unset;
+    font-size: 8vmax;
     bottom: 2vw;
     color: #EEA616;
     font-family: "Roboto Slab";
@@ -33,10 +42,22 @@ h1.err {
 h2.err {
 
     position: relative;
-    font-size: 3vmax;
+    font-size: 2.5vmax;
     bottom: 6vw;
     color: #EEA616;
     font-family: "Roboto Slab";
+}
+
+h3.err {
+    position: relative;
+    font-family: "Roboto Slab";
+    font-size: 1.3vmax;
+    color: rgba(0,0,0,0.87);
+    bottom: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: unset;
+
 }
 
 body {
