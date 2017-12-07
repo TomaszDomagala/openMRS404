@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     overflow: hidden
+
 }
 
 .img-d {
@@ -26,36 +27,28 @@ html, body {
 
     z-index: 1;
     cursor: default;
-    text-align: center;
     text-shadow: 1px 2px 1px rgba(35, 31, 32, 0.64);
 
 }
 
 h1.err {
-    margin-top: unset;
     font-size: 8vmax;
-    bottom: 2vw;
     color: #EEA616;
     font-family: "Roboto Slab";
 }
 
 h2.err {
 
-    position: relative;
     font-size: 2.5vmax;
-    bottom: 6vw;
     color: #EEA616;
     font-family: "Roboto Slab";
 }
 
 h3.err {
-    position: relative;
     font-family: "Roboto Slab";
     font-size: 1.3vmax;
-    color: rgba(0,0,0,0.87);
-    bottom: 3vw;
-    margin-top: 0;
-    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.87);
+
     text-shadow: unset;
 
 }
@@ -64,37 +57,7 @@ body {
     background-color: #fffaf6;
 }
 
-.btn {
-    cursor: pointer;
-    background: #f5b949;
-    background-image: -webkit-linear-gradient(top, #f5b949, #eea616);
-    background-image: -moz-linear-gradient(top, #f5b949, #eea616);
-    background-image: -ms-linear-gradient(top, #f5b949, #eea616);
-    background-image: -o-linear-gradient(top, #f5b949, #eea616);
-    background-image: linear-gradient(to bottom, #f5b949, #eea616);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    /*-webkit-box-shadow: 0px 0px 4px #666666;*/
-    /*-moz-box-shadow: 0px 0px 4px #666666;*/
-    /*box-shadow: 0px 0px 4px #666666;*/
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    border: solid #ffffff 2px;
-    text-decoration: none;
-}
 
-.btn:hover {
-    background: #f78956;
-    background-image: -webkit-linear-gradient(top, #f78956, #f26422);
-    background-image: -moz-linear-gradient(top, #f78956, #f26422);
-    background-image: -ms-linear-gradient(top, #f78956, #f26422);
-    background-image: -o-linear-gradient(top, #f78956, #f26422);
-    background-image: linear-gradient(to bottom, #f78956, #f26422);
-    text-decoration: none;
-}
 
 .noselect {
     -webkit-touch-callout: none;
